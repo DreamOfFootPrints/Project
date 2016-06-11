@@ -42,7 +42,7 @@ public:
 	}
 
 protected:
-	Node* _Create(const T* a, size_t size)
+	Node* _Create(const T* a, size_t size)//通过无效值建立huffman树
 	{
 		struct Compare
 		{
